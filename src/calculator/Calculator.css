@@ -1,0 +1,24 @@
+/* Allow buttons to grow,
+   by setting a large max-size */
+.button {
+  -fx-max-height: 1000px;
+  -fx-max-width: 1000px;
+  -fx-font-size:25 pt;
+  -fx-font-family: Arial;
+  -fx-background-color:#4CAF50;
+  -fx-border-color:white;
+
+ 
+}
+.button:hover{
+	-fx-background-color:#ddd
+
+	}
+
+/* Right-align the text-field */
+.label {
+  -fx-alignment: center-right;
+  -fx-opacity: 1.0;
+  -fx-font-size:25 pt;
+  -fx-font-family: Arial;
+}
